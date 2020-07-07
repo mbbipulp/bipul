@@ -2,20 +2,20 @@
 import time
 print("New session : " + time.asctime())
 def inst():
-  ask_inst = str(input("Do u need some instructions?: "))
+  ask_inst = str(input("We are going to introduction?: "))
   ask_reply = str(ask_inst.upper())
   nahlist = "No", "no", "NO", "Nope", "nope", "NOPE", "Nah", "nah", "NAH", "No need", "no need", "NO NEED", "2"
-  yeahlist = "Yes", "Yeah", "yes", "yeah", "YES", "YEAH", "Sure", "sure", "SURE", "Of course", "of course", "OF COURSE", "1", "Yep", "yep", "YEP", "Yup", "yup", "YUP", "Yap", "yap", "YAP", "Ok","ok", "OK", "Okay", "okay", "OKAY", "Okh", "okh", "OKH", "Yah", "yah", "YAH"
+  yeahlist = "Yes", "Yeah", "yes", "yeah", "YES", "YEAH", "Sure", "sure", "SURE", "Of course", "of course", "OF COURSE", "1", "Yep", "yep", "YEP", "Yup", "yup", "Hmmm", "hmmm", "hmm", "Hmm", "Ok","ok", "OK", "Okay", "okay", "OKAY", "Okh", "okh", "OKH", "Yah", "yah", "YAH"
   if ask_reply in yeahlist:
 
     print("")
-    print("The programme of this bot is too limited.")
+    print("The programme of this bot is too limited. I am a begainer. You can contact me to Facebook KaloPorirBor")
     print("")
     print("It's better to write one word answer.")
-    print("Suppose, your name is 'XYZ'")
+    print("Suppose, your name is 'Ashik'")
     print("When your name is asked,")
-    print("write like 'XYZ'")
-    print("Avoid writing like 'My name is XYZ'")
+    print("write like 'Ashik'")
+    print("Avoid writing like 'My name is Bipul Sheikh'")
     print("And reply only when you see this \"=>\" sign.""")
 
   elif ask_reply in nahlist:
@@ -59,7 +59,7 @@ def begin():
 begin()
 
 
-print ("Hello, User!")
+print ("Hello, Friends!")
 time.sleep(1)
 print("")
 print("What's your full name?")
@@ -84,14 +84,14 @@ print("")
 
 user_status = input("=> ")
 
-print("I'm always neutral :)")
+print("I'm always with you. By the way first follow me on facebook Facebook.com/KaloPorirBor :)")
 time.sleep(1)
 print("Not too good and not too bad.")
 time.sleep(1)
 print("Ok now let me introduce myself :)")
 print("")
 time.sleep(1)
-print("Hi, my name is 'Xen-BOT', I am a simple BOT with")
+print("Hi, my name is 'Bristy', I am a simple RoBot with")
 print("a very limited programming")
 print("I was programmed just for a test.")
 print("My replies are very limited,")
@@ -132,28 +132,28 @@ def bot_mood():
   print("")
 
   user_reply = str(bot_question.upper())
-  yuplist = "Yes", "Yeah", "yes", "yeah", "YES", "YEAH", "Sure", "sure", "SURE", "Of course", "of course", "OF COURSE", "1", "Yep", "yep", "YEP", "Yup", "yup", "YUP", "Yap", "yap", "YAP", "Ok","ok", "OK", "Okay", "okay", "OKAY", "Okh", "okh", "OKH", "Yah", "yah", "YAH"
+  yuplist = "Yes", "Yeah", "yes", "yeah", "YES", "YEAH", "Sure", "sure", "SURE", "Of course", "of course", "OF COURSE", "1", "Yep", "yep", "YEP", "Yup", "yup", "YUP", "Yap", "yap", "YAP", "Ok","ok", "OK", "Okay", "okay", "OKAY", "Okh", "hmm", "OKH", "Yah", "yah", "YAH"
   nopelist = "No", "no", "NO", "Nope", "nope", "NOPE", "Nah", "nah", "NAH", "No need", "no need", "NO NEED", "2"
 
   if user_reply in nopelist:
 
     print("")
     print("Oh")
-    print("Okay no problem :)")
+    print("Okay no problem.  :)")
     print("")
 
   elif user_reply in yuplist:
 
     print("")
-    print("Glad to hear it")
+    print("Ki bolen vai")
     print("")
     time.sleep(1)
-    print("Now, my mood is Good.")
+    print("Ekhon amar mood valo, karon apnar sathe kotha boltechi je. MR. "+user_name+".")
     print("Because, I'm pleased while talking with you. :)")
     time.sleep(1)
 
   else:
-    print("Couldn't understand!")
+    print("Bujhtechi na..")
     print("")
     bot_mood()
     print("")
@@ -165,30 +165,30 @@ bot_mood()
 def geometry():
   import time
   print("")
-  print("Can you draw geometric shapes?:")
+  print("Apni ki ASCI ART korte paren?:")
   print("")
   bot_question2 = str(input("=> "))
 
   user_reply2 = str(bot_question2.lower())
-  yeplist = "Yes", "Yeah", "yes", "yeah", "YES", "YEAH", "Sure", "sure", "SURE", "Of course", "of course", "OF COURSE", "1", "Yep", "yep", "YEP", "Yup", "yup", "YUP", "Yap", "yap", "YAP", "Ok","ok", "OK", "Okay", "okay", "OKAY", "Okh", "okh", "OKH", "Yah", "yah", "YAH"
+  yeplist = "Yes", "Yeah", "yes", "yeah", "YES", "YEAH", "Sure", "sure", "SURE", "Of course", "of course", "OF COURSE", "1", "Yep", "yep", "YEP", "Yup", "yup", "YUP", "Yap", "yap", "YAP", "Ok","ok", "OK", "Okay", "okay", "OKAY", "hmm", "okh", "OKH", "Yah", "yah", "YAH"
   neplist = "No", "no", "NO", "Nope", "nope", "NOPE", "Nah", "nah", "NAH", "No need", "no need", "NO NEED", "2"
   if user_reply2 in yeplist:
     print("")
-    print("Owh nice, I can draw too :D")
+    print("Amio Pari... :D")
     print("")
     time.sleep(1)
     drawing()
 
   elif user_reply2 in neplist:
     print("")
-    print("Oh, No problem :)")
+    print("Oh, No problem. Apni MBBD TEAM e contact korte paren :)")
     print("")
     time.sleep(1)
     print("I can draw some :)")
     drawing()
   else:
     print("")
-    print("Sorry! Couldn't understand. :|")
+    print("Sorry! Bujhte somossa hocce :|")
     print("")
     geometry()
 
@@ -218,9 +218,9 @@ def drawing():
     print("")
     time.sleep(1)
     print("|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|")
-    print("|                         |")
-    print("|                         |")
-    print("|                         |")
+    print("|                        B |")
+    print("|                       +  |")
+    print("|                      B    |")
     print("|_________________________|")
     print("")
     print("This is a rectangle :D")
@@ -233,9 +233,9 @@ def drawing():
     time.sleep(1)
     print("")
     print("|¯¯¯¯¯¯¯¯¯¯¯¯|")
-    print("|            |")
-    print("|            |")
-    print("|            |")
+    print("|            |") B
+    print("|            |") +
+    print("|            |") K
     print("|____________|")
     print("")
     print("This is a square :D")
@@ -349,7 +349,7 @@ def owner_text():
     time.sleep(1.8)
     print("------------------------------------------------")
     print("Hello,")
-    print("I am MD Rimel Hossain.")
+    print("I am MD Bipul Sheikh.")
     print("It's my first python program.")
     print("I hope you've enjoyed this little chat-BOT.")
     print("I'm a full beginner. I don't know much about")
@@ -362,11 +362,11 @@ def owner_text():
     time.sleep(7)
     print("")
     print("Hope You've read my programmer's message.")
-    print("Thank you so much for trying 'Xen-BOT'")
+    print("Thank you so much for trying 'Bipul'")
     print("Give stars please. :) ")
   elif user_reply5 in textno:
     print("")
-    print("Oh Okay, Thanks for trying 'Xen-BOT'")
+    print("Oh Okay, Thanks for trying 'Bipul'")
     print ("And give stars please :)")
   else:
     print("")
@@ -380,6 +380,7 @@ owner_text()
 print("Have a good day, :)")
 print("")
 print("BYE")
+print(" Oh   valo kotha 01738609482 amar number")
 end = str(input("Hit Enter: "))
 print("EXIT")
 print("-----------------------------")
@@ -388,6 +389,6 @@ print("-----------------------------")
 
 #<code/>_finished-with_Zero_Error
 
-#Xen-Bot lite project over!
+#Bipul lite project over!
 
-#Xen-Bot pro available for python shell only.
+#Bipul pro available for python shell only.
