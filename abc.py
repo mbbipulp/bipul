@@ -1,7 +1,10 @@
+# this is an awesome chat bot by Bipul seikh
+
 
 import time
 print("New session : " + time.asctime())
 def inst():
+#   ask_inst = str(input("we are going for introduction?. "))
   ask_inst = str(input("We are going to introduction?: "))
   ask_reply = str(ask_inst.upper())
   nahlist = "No", "no", "NO", "Nope", "nope", "NOPE", "Nah", "nah", "NAH", "No need", "no need", "NO NEED", "2"
@@ -304,7 +307,7 @@ def draw_again():
   
   qus_again = str(input("=> "))
   ans_again = str(qus_again.upper())
-  yeslist2 = "Yes", "Yeah", "yes", "yeah", "YES", "YEAH", "Sure", "sure", "SURE", "Of course", "of course", "OF COURSE", "1", "Yep", "yep", "YEP", "Yup", "yup", "YUP", "Yap", "yap", "YAP", "Ok","ok", "OK", "Okay", "okay", "OKAY", "Okh", "okh", "OKH", "Yah", "yah", "YAH"
+  yeslist2 = "Yes", "Yeah", "yes", "yeah", "YES", "YEAH", "Sure", "sure", "SURE", "Of course", "of course", "OF COURSE", "1", "Yep", "yah", "Yah", "yep", "YEP", "Yup", "yup", "YUP", "Yap", "yap", "YAP", "Ok","ok", "OK", "Okay", "okay", "OKAY", "Okh", "okh", "OKH", "Yah", "yah", "YAH"
   nolist2 = "No", "no", "NO", "Nope", "nope", "NOPE", "Nah", "nah", "NAH", "No need", "no need", "NO NEED", "2"
 
   if ans_again in yeslist2:
@@ -341,7 +344,7 @@ def owner_text():
   print("")
   bot_question5 = str(input("=> "))
   user_reply5 = str(bot_question5.upper())
-  textyes = "Yes", "Yeah", "yes", "yeah", "YES", "YEAH", "Sure", "sure", "SURE", "Of course", "of course", "OF COURSE", "1", "Yep", "yep", "YEP", "Yup", "yup", "YUP", "Yap", "yap", "YAP", "Ok","ok", "OK", "Okay", "okay", "OKAY", "Okh", "okh", "OKH", "Yah", "yah", "YAH"
+  textyes = "Yes", "Yeah", "yes", "yeah", "YES", "YEAH", "Sure", "sure", "SURE", "Of course", "of course", "OF COURSE", "1", "Yep", "yah", "Yah", "yep", "YEP", "Yup", "yup", "YUP", "Yap", "yap", "YAP", "Ok","ok", "OK", "Okay", "okay", "OKAY", "Okh", "okh", "OKH", "Yah", "yah", "YAH"
   textno = "No", "no", "NO", "Nope", "nope", "NOPE", "Nah", "nah", "NAH", "No need", "no need", "NO NEED", "2"
   if user_reply5 in textyes:
     print("")
